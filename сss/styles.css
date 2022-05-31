@@ -1126,6 +1126,10 @@ letter-spacing: 0.03em;
         border: none;
         margin-left: 12px;
         text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 29px;
+        align-content: center;
 }
 
 .form-footer {
@@ -1135,6 +1139,9 @@ letter-spacing: 0.03em;
     
 }
 
+.svg-footer {
+    padding-left: 10px;;
+}
 
 /* лого шрифт Raleway вес 700*/
 /* шрифт везде кроме лого Roboto  */
