@@ -935,7 +935,7 @@ pointer-events: initial;
 transition-property: opacity, visibility;
 transition-duration: 1000ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-transition-delay: 0s;
+transition-duration: 0s;
 z-index: 1;
 }
 
@@ -1058,7 +1058,7 @@ line-height: 1.16;
         border-radius: 4px;
 
         transition-property: border;
-        transition-delay: 1000ms;
+        transition-duration: 1000ms;
         transition-timing-function: var(--timing-function);
     
 }
@@ -1082,7 +1082,7 @@ line-height: 1.16;
     resize: none;
 
             transition-property: border;
-                transition-delay: 1000ms;
+                transition-duration: 1000ms;
                 transition-timing-function: var(--timing-function);
     
 }
@@ -1099,7 +1099,7 @@ line-height: 1.16;
     margin-right: 15px;
 
             transition-property: fill;
-                transition-delay: 1000ms;
+                transition-duration: 1000ms;
                 transition-timing-function: var(--timing-function);
 }
 
