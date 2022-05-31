@@ -925,7 +925,7 @@ z-index: 1;
    
     border-radius: 4px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
- 
+ padding: 40px;
 }
 
 .modal-close-button {
@@ -958,6 +958,7 @@ right: 8px;
 }
 
 .form-text {
+    display: block;
 margin-bottom: 30px;
 font-size: 20px;
 line-height: 1.15;
@@ -986,8 +987,7 @@ font-family: 'Roboto';
 .form-field {
     display: flex;
     flex-direction: column;
-    margin-right: 40px;
-    margin-left: 40px;
+position: relative;
 }
 
 
@@ -1001,7 +1001,7 @@ line-height: 1.16;
 
 .modal-input {
     margin-bottom: 10px;
-    height: 40px;
+   
     border: 1px solid rgba(33, 33, 33, 0.2);
         border-radius: 4px;
 }
@@ -1009,15 +1009,31 @@ line-height: 1.16;
 .text-area {
     border: 1px solid rgba(33, 33, 33, 0.2);
         border-radius: 4px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+      padding-left: 16px;
+        padding-right: 16px;
+    
 }
 
 
-.modal-agreement {
- 
-
+.svg-modal-icon {
+    position:absolute;
+    top: 43%;
+    left: 15px;
+    margin-right: 15px;
 }
 
 
+.form-field input {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 42px;
+}
+
+.offer-color {
+    color: #2196F3;
+}
 /* лого шрифт Raleway вес 700*/
 /* шрифт везде кроме лого Roboto  */
 /* шрифт Roboto вес. Жирный 500. Мелкий 400 */
