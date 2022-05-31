@@ -721,6 +721,7 @@ transition-property: border;
 
 
 .footer-title {
+  
     text-transform: uppercase;
     color: #FFFFFF;
     font-size: 14px;
@@ -1092,6 +1093,46 @@ color: #FFFFFF;
 
 .visually-hiden {
     visibility: hidden;
+}
+
+.footer-label {
+    font-weight: 700;
+        font-size: 14px;
+    color: #FFFFFF;
+  text-transform: uppercase;
+letter-spacing: 0.03em;
+}
+
+.footer-input {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: #2F303A;
+  
+}
+
+
+
+.footer-button {
+    width: 200px;
+    height: 50px;
+    background-color: #2196F3;
+    color: #FFFFFF;
+    letter-spacing: 0.06em;
+    font-weight: 700;
+        font-size: 16px;
+        border-radius: 4px;
+        border: none;
+        margin-left: 12px;
+        text-align: center;
+}
+
+.form-footer {
+    display: flex;
+    flex-wrap: wrap;
+
+    
 }
 
 
