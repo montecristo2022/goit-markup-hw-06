@@ -1036,7 +1036,7 @@ line-height: 1.16;
     outline: none;
 }
 
-.offer-color {
+.offers {
     color: #2196F3;
 
 }
@@ -1059,6 +1059,41 @@ line-height: 1.16;
 .modal-agreement {
     margin-bottom: 40px;
 }
+
+
+.agreement {
+    margin-bottom: 40px;
+}
+
+
+.modal-checkbox {
+ display: inline-block;
+width: 16px;
+    height: 15px;
+    border: 1px solid #212121;
+        border-width: 2px;
+        border-radius: 2px;
+        color: transparent;
+  
+}
+
+
+.checkbox:checked + .modal-checkbox {
+    border-color: #2196F3;
+background-color: #2196F3;
+color: #FFFFFF;
+}
+
+
+.modal-checkbox-icon {
+    fill: currentColor;
+}
+
+
+.visually-hiden {
+    visibility: hidden;
+}
+
 
 /* лого шрифт Raleway вес 700*/
 /* шрифт везде кроме лого Roboto  */
