@@ -1015,6 +1015,8 @@ line-height: 1.16;
         padding-bottom: 12px;
       padding-left: 16px;
         padding-right: 16px;
+        outline: 0;
+        margin-bottom: 20px;
     
 }
 
@@ -1031,11 +1033,33 @@ line-height: 1.16;
     padding-top: 12px;
     padding-bottom: 12px;
     padding-left: 42px;
+    outline: none;
 }
 
 .offer-color {
     color: #2196F3;
+
 }
+
+.form-field:focus-within  {
+    fill: #2196f3;
+}
+
+
+.form-field input:focus {
+        border-color: #2196f3;
+            border-width: 1px;
+}
+
+ textarea:focus {
+        border-color: #2196f3;
+            border-width: 1px;
+}
+
+.modal-agreement {
+    margin-bottom: 40px;
+}
+
 /* лого шрифт Raleway вес 700*/
 /* шрифт везде кроме лого Roboto  */
 /* шрифт Roboto вес. Жирный 500. Мелкий 400 */
