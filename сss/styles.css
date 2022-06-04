@@ -114,7 +114,7 @@ margin-bottom: 50px;
 
 
 
-.footer .logo {
+.container__logo {
     display: inline-block;
     margin-bottom: 20px;
 }
@@ -149,19 +149,21 @@ margin-left: auto;
   color: #000000;  
 }
 
-
+.container__accent--footer {
+    color: #FFFFFF;
+}
 
 .page-header {
     background-color: var(--primary-text-color);
     border-bottom: 1px solid #ECECEC;
 }
 
-.current {
+.navigation__link--current {
     color: var(--accent-color);
 }
 
-/* site-nav */
-.nav-link,
+
+.navigation__link,
 .contact-link {
 
     position: relative;
@@ -185,7 +187,7 @@ font-weight: 500;
 
 
 
-.nav-link.current::after {
+.navigation__link.navigation__link--current::after {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -214,13 +216,13 @@ font-weight: 500;
         
 }
 
-.nav-link:hover,
-.nav-link:focus,
+.navigation__link:hover,
+.navigation__link:focus,
 .contact-link:hover,
 .contact-link:focus,
 .footer .contact-link:hover,
 .footer .contact-link:focus,
-.current {
+.navigation__link--current {
 color: var(--accent-color);
 
 
@@ -507,22 +509,22 @@ font-weight: 500;
 }
 
 
-.site-nav {
+.navigation {
     display: flex;
 
  
 }
 
-.site-nav .item {
+.navigation__item {
 
     margin-right: 50px;
 }
 
-.site-nav .item:last-child {
+.navigation__item:last-child {
     margin-right: 0;
 }
 
-.contact-nav {
+.contact {
     display: flex;
     margin-left: auto;
 }
@@ -533,11 +535,11 @@ font-weight: 500;
 
 
 
-.contact-nav .item {
+.contact__item {
     margin-right: 50px;
 }
 
-.contact-nav .item:last-child {
+.contact__item:last-child {
     margin-right: 0px;
 }
 
