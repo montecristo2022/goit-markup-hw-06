@@ -96,7 +96,7 @@ margin-bottom: 50px;
 }
 
 
-.logo {
+.container__logo {
    color: var(--accent-color);
     font-family: Raleway, sans-serif;
         font-weight: 700;
@@ -107,7 +107,7 @@ margin-bottom: 50px;
     
 }
 
-.header .logo {
+.page-header .container__logo {
     margin-right: 93px;
 }
 
@@ -132,7 +132,7 @@ margin-left: auto;
 
 }
 
-.main-container {
+.page-header__container {
     display: flex;
    align-items: center;
 }
@@ -145,13 +145,13 @@ margin-left: auto;
 
 
 
-.accent{
+.container__accent{
   color: #000000;  
 }
 
 
 
-.header {
+.page-header {
     background-color: var(--primary-text-color);
     border-bottom: 1px solid #ECECEC;
 }
@@ -556,7 +556,7 @@ font-weight: 500;
         overflow: hidden;
 }
 
-.main-nav {
+.container__nav {
     display: flex;
     align-items: center;
 }
